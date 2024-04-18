@@ -24,8 +24,8 @@ SUTDicey is a hardware module (Figure 1) that provides an interactive solution f
 | 3Mx8 hex head screws | 4 |    
 
 ## Circuit Diagram  
-Various electronics components such as CMOD-A7, battery, DC-DC Charge Discharge Integrated Module, Step-down voltage regulators, power push button, up/down push button, tilt switch and resistors (9.1k & 10k) were used and interconnected based on Figure 2. 
-![photo1713197398](https://github.com/stephlovesfries/CMOD-A7-2D/assets/115708694/5c04479c-d33f-48f1-b608-e9f3292a66bb)  
+Various electronics components such as CMOD-A7, battery, DC-DC Charge Discharge Integrated Module, Step-down voltage regulators, power push button, up/down push button, tilt switch and resistors (9.1k & 10k) were used and interconnected based on Figure 2.   
+![photo1713197398](https://github.com/stephlovesfries/CMOD-A7-2D/assets/115708694/5c04479c-d33f-48f1-b608-e9f3292a66bb)      
 *Figure 2: Wiring Circuit for SUTDicey*  
 
 ## Operating SUTDicey
@@ -129,10 +129,10 @@ A pseudorandom number generator (PRNG) is used to generate random numbers for th
 ![RNG](https://github.com/stephlovesfries/CMOD-A7-2D/assets/115708694/6ba6943f-334b-47b6-80d4-323102963f9a) 
 *Figure 4: XORshift method* 
 - The use of a 32-bit seed in the XORshift method makes the randomness seemingly close to a TRPG. A UART connection was used to plot a statistical distribution and evaluate the randomness of the generated XORshift outputs: 
-![photo1713197398](https://github.com/stephlovesfries/CMOD-A7-2D/assets/115708694/2bb0d28d-79ee-4557-a14b-102e1490d030)
+![photo1713112389](https://github.com/stephlovesfries/CMOD-A7-2D/assets/115708694/6f4ac35e-fe5c-411d-99d3-1224e826d830)
 ![photo1713192687](https://github.com/stephlovesfries/CMOD-A7-2D/assets/115708694/774458ef-2504-493a-812d-0ade5a145dbb)
 *Figure 5 & 6: Statistical distribution for 20-sided dice*
-![photo1713112754](https://github.com/stephlovesfries/CMOD-A7-2D/assets/115708694/1268afa3-cf9c-47cd-8bc0-9e2f2780dac6)
+![photo1713112754](https://github.com/stephlovesfries/CMOD-A7-2D/assets/115708694/1268afa3-cf9c-47cd-8bc0-9e2f2780dac6)  
 *Figure 7: Statistical distribution before RNG value is converted to the chosen dice range*
 
 
