@@ -29,7 +29,7 @@ Various electronics components such as CMOD-A7, battery, DC-DC Charge Discharge 
 ## Operating SUTDicey
 1. Power on SUTDicey by pressing the recessed button on the bottom of the unit, a red light should show in the slot nearby.
 
-  a. If a red light does not show, the unit is probably out of power, please charge it with a USB C cable (5v mode)
+* If a red light does not show, the unit is probably out of power, please charge it with a USB C cable (5v mode)
 
 
 
@@ -39,7 +39,7 @@ Various electronics components such as CMOD-A7, battery, DC-DC Charge Discharge 
 
 3. Press above or below on the acrylic face to change between the d2,d4,d6,d8,d10,d12d,20 and d100-sided die.
 
-  a. Pressing both up and down buttons at the same time while the dice is upright will initiate shutdown which will occur after around 15-30 seconds
+* Pressing both up and down buttons at the same time while the dice is upright will initiate shutdown which will occur after around 15-30 seconds
 
 
 
@@ -84,3 +84,7 @@ Continuously monitors the state of a tilt sensor to determine whether a dice uni
 * The sum of the bits in the *tiltlog* register is calculated, representing the duration the tilt sensor has been in the "on" state over a specific period (approximately 1 second).
 * If the sum of the *tiltlog* register exceeds a predetermined threshold (7), indicating that the tilt sensor has been consistently in the "on" state for a certain duration (about 7/10th of a second), the system sets the *upright* flag to 1.
 * If the sum of the *tiltlog* register is below the threshold, the *upright* flag remains at 0, indicating that the dice unit is not considered upright and stable.
+
+
+
+
